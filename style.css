@@ -265,12 +265,14 @@ p{
     margin-bottom: 20px;
 
 }
-.card-item ul{
+.card-item ul > ul{
     color:#fff;
-    margin-bottom: 10px;
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    font-size:larger;
+    padding: 0 15px;
+    font-weight: 600;
 
 }
  
@@ -300,6 +302,48 @@ p{
     color: #fff; 
 }
 
+.contact{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width:80%;
+    max-width:600px;
+    margin:50px auto;
+    padding:20px;
+    border-radius:10px;
+
+}
+.contact h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:aliceblue;
+
+}
+
+div input,
+div textarea{
+    display: block;
+    width: 100%;
+    margin-bottom:10px;
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    background-color:#072a4d;
+    color:#fff
+
+}
+div button{
+    display: block;
+    width: 100%;
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    background-color:#00abf0;
+    color:#fff;
+    cursor:pointer;
+
+}
 
 
 
